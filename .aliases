@@ -1,0 +1,26 @@
+# .aliases
+
+# jira go
+alias gojira='/usr/local/bin/go-jira -k'
+
+# awscli
+alias awscli='python3 /Users/ja063206/repos/repos/awscli_setup/awscli_setup.py'
+alias awsclihieng='python3 /Users/ja063206/repos/awscli_setup/awscli_setup.py --cliprofile=hieng'
+alias awsclihiprodca='python3 /Users/ja063206/repos/awscli_setup/awscli_setup.py --cliprofile=hiprodca'
+alias awsclihiprodaus='python3 /Users/ja063206/repos/awscli_setup/awscli_setup.py --cliprofile=hiprodaus'
+
+# which stack is active
+alias whichstackppprod='ssh cerncwpapp204 cat /etc/nginx/active_color'
+alias whichstackppstaging='ssh cerncwpapp103 cat /etc/nginx/active_color'
+
+# jump
+alias jump='/Users/ja063206/repos/scripts/jumpgate.sh'
+
+# stigviewer
+alias stigviewer="/Users/ja063206/stigviewer/U_STIGViewer_2-9-1_Mac/STIGViewer"
+
+# pac file toggle
+alias proxy='sudo networksetup -setautoproxystate Wi-Fi'
+#   Usage:
+#     `proxy on`
+#     `proxy off`

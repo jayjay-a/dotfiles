@@ -1,0 +1,17 @@
+# ~/.gitconfig
+# creds
+[user]
+	email = Julius.Agno@cerner.com
+	name = ja063206
+[credential]
+	helper = osxkeychain
+
+# pretty log format
+[log]
+  	date = relative
+[format]
+  	pretty = format:%h %Cblue%ad%Creset %ae %Cgreen%s%Creset
+
+# gitignore
+[core]
+	excludesfile = ~/.gitignore_global
